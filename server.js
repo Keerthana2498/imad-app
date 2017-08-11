@@ -16,17 +16,18 @@ article-one: {
                         how come how come how come how come
                     </p>`
 },
-article-two: {title: 'Article-two has started',
+article-two: {
+    title: 'Article-two has started',
     heading:'Article-two',
     content:`<p>
                 this is a web app. this is a web app. this is a web app. 
                 </p>
             `},
-article-three: {title: 'Article-three has started',
-    heading:'Article-three',
+article-three: {title: 'Article-three has started';
+    heading:'Article-three';
     content:`<p>
             how come how come how come how come
-                    </p>`},
+                    </p>`}
 };
 function createTemplate(data) {
     var title=data.title;
