@@ -4,11 +4,11 @@ element.innerHTML="new hfjd";
 var marginLeft=0;
 function moveRight()
 {
-    marginLeft=marginLeft+10;
+    marginLeft=marginLeft+1;
     hk.style.marginLeft=marginLeft+'px';
 }
 var hk=document.getElementById("img");
 hk.onclick=function(){
-    var Interval=setInterval(moveRight,100)
+    var Interval=setInterval(moveRight,50)
     
 };
