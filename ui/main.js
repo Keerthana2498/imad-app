@@ -6,6 +6,6 @@ var marginLeft=0;
     
 var hk=document.getElementById("img");
 hk.onclick=function(){
-    hk.style.marginLeft=marginLeft+"100px"
+    hk.style.marginLeft=marginLeft+"100px";
     
 };
