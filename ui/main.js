@@ -1,9 +1,9 @@
 console.log('Loaded!');
 var button=document.getElementById('counter');
-var counter=0;
+
 
 button.onclick = function(){
-    var request=new XMLhttpRequest(){
+    var request=new XMLhttpRequest()
         request.onreadystatechange=function(){
             if(request==XMLhttpRequest.DONE){
                 
@@ -13,6 +13,9 @@ button.onclick = function(){
                 span.innerHTML=counter.toString();
        }
             }
-        }
-    }
-}
+        
+        };
+        request.open=('GET','http://askcutir.imad.hasura-app.io/counter', true );
+        request.send=(null);
+};
+
