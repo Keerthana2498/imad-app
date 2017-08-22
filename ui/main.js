@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var button=document.getElementById('counter');
+var button=document.getElementById("counter");
 
 
 button.onclick = function(){
@@ -7,7 +7,7 @@ button.onclick = function(){
      request.onreadystatechange = function(){
          if(request.readyState==XMLHttpRequest.DONE){
              if(request.readyState==200){
-                 var counter=request.responseText();
+                 
                  counter=counter+1;
                  var span=document.getElementById("count");
                  span.innerHTML = counter.toString();
